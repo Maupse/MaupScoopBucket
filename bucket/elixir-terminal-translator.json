@@ -16,7 +16,7 @@
         "echo Add %USERPROFILE%/.mix/escripts to your PATH manually if your shell can't find tl"
     ],
     "env_add_path": [
-        "~/.mix/escripts"
+        "%USERPROFILE%/.mix/escripts"
     ],
     "checkver": {
         "url": "https://github.com/Maupse/elixir_terminal_translator/releases",
