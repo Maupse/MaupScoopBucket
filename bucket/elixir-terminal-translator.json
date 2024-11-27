@@ -1,5 +1,5 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A Command Line Interface translator",
     "homepage": "https://github.com/Maupse/elixir_terminal_translator",
     "license": "MIT",
@@ -7,7 +7,7 @@
         "erlang",
         "elixir"
     ],
-    "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v0.1.1/tl",
+    "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v0.1.2/tl",
     "installer": {
         "script": [
             "mix escript.install $dir/tl",
