@@ -11,7 +11,8 @@
     "installer": {
         "script": [
             "mix escript.install $dir/tl",
-            "$env:PATH += ';$env:USERPROFILE/.mix/escripts'"
+            "$p = [System.Environment]::GetEnvironmentVariable(\"Path\", \"User\")",
+            "[Environment]::SetEnvironmentVariable(\"Path\", $p + \";$env:USERPROFILE/.mix/escripts\", \"User\")"
         ]
     },
     "uninstaller": {
