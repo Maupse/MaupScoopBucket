@@ -11,7 +11,7 @@
     "installer": {
         "script": [
             "$output = '$env:USERPROFILE\\scoop\\apps\\elixir-terminal-translator\\$version\\tl'",
-            "mix escript.install $output"           
+            "mix escript.install $output"
         ]
     },
     "post_install": [
