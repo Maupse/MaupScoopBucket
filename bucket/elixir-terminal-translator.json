@@ -16,7 +16,7 @@
         "echo Add \"$env:USERPROFILE/scoop/apps/elixir-terminal-translator/tl\" to your PATH manually if your shell can't find tl."
     ],
     "env_add_path": [
-        "$env:USERPROFILE\\scoop\\apps\\elixir-terminal-translator"
+        "."
     ],
     "checkver": {
         "url": "https://github.com/Maupse/elixir_terminal_translator/releases",
