@@ -10,8 +10,7 @@
     "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v0.1.1/tl",
     "installer": {
         "script": [
-            "$output = '$env:USERPROFILE\\scoop\\apps\\elixir-terminal-translator\\$version\\tl'",
-            "mix escript.install $output"
+            "mix escript.install ./tl"
         ]
     },
     "post_install": [
