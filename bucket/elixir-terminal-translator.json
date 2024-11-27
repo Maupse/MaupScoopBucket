@@ -9,7 +9,7 @@
     ],
     "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v0.1.1/tl",
     "installer": {
-        "script": "mix escript.install $dir/tl" 
+        "script": "mix escript.install $dir/tl"
     },
     "uninstaller": {
         "script": "mix escript.uninstall tl"
