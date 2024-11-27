@@ -9,14 +9,14 @@
     ],
     "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v0.1.1/tl",
     "installer": {
-        "script": "mix escript.install $dir/tl"
+        "script": [
+            "mix escript.install $dir/tl",
+            "$env:PATH += ';$env:USERPROFILE/.mix/escripts'"
+        ]
     },
     "uninstaller": {
         "script": "mix escript.uninstall tl"
     },
-    "env_add_path": [
-        "$env:USERPROFILE/.mix/escripts"
-    ],
     "checkver": {
         "url": "https://github.com/Maupse/elixir_terminal_translator/releases",
         "regex": "tag/v(\\d.]+)"
