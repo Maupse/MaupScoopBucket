@@ -9,14 +9,13 @@
     ],
     "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v0.1.1/tl",
     "installer": {
-        "script": ""
+        "script": "mix escript.install $dir/tl" 
     },
-    "post_install": [
-        "echo Use tl --help to get an overview.",
-        "echo Add \"$env:USERPROFILE/scoop/apps/elixir-terminal-translator/tl\" to your PATH manually if your shell can't find tl."
-    ],
+    "uninstaller": {
+        "script": "mix escript.uninstall tl"
+    },
     "env_add_path": [
-        "."
+        "$env:USERPROFILE/.mix/escripts"
     ],
     "checkver": {
         "url": "https://github.com/Maupse/elixir_terminal_translator/releases",
