@@ -1,0 +1,28 @@
+{
+    "version": "0.1.1",
+    "description": "A Command Line Interface translator",
+    "homepage": "https://github.com/Maupse/elixir_terminal_translator",
+    "license": "MIT",
+    "depends": [
+        "erlang",
+        "elixir"
+    ],
+    "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v0.1.1/tl",
+    "installer": {
+        "script": "mix escript.install tl"
+    },
+    "post_install": [
+        "echo Use tl --help to get an overview",
+        "echo Add %USERPROFILE%/.mix/escripts to your PATH manually if your shell can't find tl"
+    ],
+    "env_add_path": [
+        "~/.mix/escripts"
+    ],
+    "checkver": {
+        "url": "https://github.com/Maupse/elixir_terminal_translator/releases",
+        "regex": "tag/v(\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Maupse/elixir_terminal_translator/releases/download/v$version/tl"
+    }
+}
