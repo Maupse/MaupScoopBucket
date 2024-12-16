@@ -3,6 +3,6 @@
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add MaupScoopBucket "https://github.com/maupse/MaupScoopBucket"
-scoop install MaupScoopBucket/<manifestname>
+scoop bucket add MaupScoopBucket "https://github.com/maupse/SlimeBucket"
+scoop install SlimeBucket/<manifestname>
 ```
