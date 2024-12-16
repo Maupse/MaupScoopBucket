@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "maupse/MaupScoopBucket:main"
+    [String]$upstream = "maupse/SlimeBucket:main"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
